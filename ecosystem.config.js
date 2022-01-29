@@ -8,7 +8,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'root',
-      host: 'dwt.webok.net',
+      host: 'dwt.webok.net:7009',
       ref: 'origin/master',
       repo: 'git@github.com:dengwentong/account.git',
       path: '/mnt/sdb1/var/www/account/juejue-vite-h5',
